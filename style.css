@@ -1,0 +1,41 @@
+body {
+    background: #ccc;
+}
+#baymax {
+    height: 500px;
+}
+#head {
+    height: 128px;
+    width: 200px;
+    border-radius: 50%;
+    background: #fff;
+    margin: 0 auto;
+    margin-bottom: -40px;
+    border-bottom: 10px solid #e0e0e0;
+
+    position: relative;
+  margin-top:30vh;
+}
+#eyeleft,
+#eyeright {
+    width: 22px;
+    height: 26px;
+    background: #282828;
+    border-radius: 50%;
+    position: relative;
+    top: 60px;
+    left:54px;
+}
+
+#eyeright {
+    left: 138px;
+    top: 34px;
+}
+#mouth {
+    width: 74px;
+    height: 3px;
+    background:#282828;
+    position: relative;
+    left: 68px;
+    top: 20px;
+}
